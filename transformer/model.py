@@ -25,10 +25,10 @@ class MultiHeadAttention(tf.keras.layers.Layer):
         self.dence_k     = tf.keras.layers.Dense(d_model)
         self.dence_v     = tf.keras.layers.Dense(d_model)
         self.split_heads = rcompose(tf.keras.layers.Reshape((-1, num_heads, d_model // num_heads)),
-                                   func_partial(tf.transpose, perm=(0, 2, 1, 3)))
+                                    func_partial(tf.transpose, perm=(0, 2, 1, 3)))
         self.attention   = scaled_dot_product_attention
         self.concat      = rcompose(func_partial(tf.transpose, perm=(0, 2, 1, 3)),
-                                   tf.keras.layers.Reshape((-1, d_model)))
+                                    tf.keras.layers.Reshape((-1, d_model)))
         self.linear      = tf.keras.layers.Dense(d_model)
 
     def call(self, q, k, v, mask):

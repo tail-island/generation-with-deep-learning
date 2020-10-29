@@ -5,13 +5,13 @@ from data_set import ENCODE, WORDS, decode, create_dataset
 from model    import Transformer
 
 
-NUM_BLOCKS   = 3           # 簡単なタスクなので、Attention is all you needの半分で
-D_MODEL      = 256         # 簡単なタスクなので、Attention is all you needの半分で
-D_FF         = 1024        # 簡単なタスクなので、Attention is all you needの半分で
-NUM_HEADS    = 4           # 簡単なタスクなので、Attention is all you needの半分で
+NUM_BLOCKS   = 3           # 簡単なタスクなので、Attention is all you needの半分
+D_MODEL      = 256         # 簡単なタスクなので、Attention is all you needの半分
+D_FF         = 1024        # 簡単なタスクなので、Attention is all you needの半分
+NUM_HEADS    = 4           # 簡単なタスクなので、Attention is all you needの半分
 DROPOUT_RATE = 0.1         # ここは、Attention is all you needのまま
 X_VOCAB_SIZE = len(WORDS)
-Y_VOCAB_SIZE = len(WORDS)  # 出力には演算記号はないのだけど、面倒なので含めます
+Y_VOCAB_SIZE = len(WORDS)  # 出力には演算記号はないのだけど、面倒なので含めておきます
 
 
 class LearningRateSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):
