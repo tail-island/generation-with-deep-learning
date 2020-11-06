@@ -5,13 +5,15 @@ from data_set import ENCODE, WORDS, decode, create_dataset
 from model    import Transformer
 
 
-NUM_BLOCKS   = 3           # 簡単なタスクなので、Attention is all you needの半分
-D_MODEL      = 256         # 簡単なタスクなので、Attention is all you needの半分
-D_FF         = 1024        # 簡単なタスクなので、Attention is all you needの半分
-NUM_HEADS    = 4           # 簡単なタスクなので、Attention is all you needの半分
-DROPOUT_RATE = 0.1         # ここは、Attention is all you needのまま
-X_VOCAB_SIZE = len(WORDS)
-Y_VOCAB_SIZE = len(WORDS)  # 出力には演算記号はないのだけど、面倒なので含めておきます
+NUM_BLOCKS         = 3           # 簡単なタスクなので、Attention is all you needの半分
+D_MODEL            = 256         # 簡単なタスクなので、Attention is all you needの半分
+D_FF               = 1024        # 簡単なタスクなので、Attention is all you needの半分
+NUM_HEADS          = 4           # 簡単なタスクなので、Attention is all you needの半分
+DROPOUT_RATE       = 0.1         # ここは、Attention is all you needのまま
+X_VOCAB_SIZE       = len(WORDS)
+Y_VOCAB_SIZE       = len(WORDS)  # 出力には演算記号はないのだけど、面倒なので含めておきます
+X_MAXIMUM_POSITION = 100         # 余裕を持って多めに
+Y_MAXIMUM_POSITION = 100         # 余裕を持って多めに
 
 
 class LearningRateSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):
@@ -49,7 +51,7 @@ def main():
 
     (train_x, train_y), (valid_x, valid_y) = create_dataset()
 
-    transformer = Transformer(NUM_BLOCKS, D_MODEL, NUM_HEADS, D_FF, X_VOCAB_SIZE, Y_VOCAB_SIZE, X_VOCAB_SIZE, Y_VOCAB_SIZE, DROPOUT_RATE)
+    transformer = Transformer(NUM_BLOCKS, D_MODEL, NUM_HEADS, D_FF, X_VOCAB_SIZE, Y_VOCAB_SIZE, X_MAXIMUM_POSITION, Y_MAXIMUM_POSITION, DROPOUT_RATE)
     transformer.compile(tf.keras.optimizers.Adam(LearningRateSchedule(D_MODEL), beta_1=0.9, beta_2=0.98, epsilon=1e-9), loss=loss_function, metrics=('accuracy',))
     transformer.fit((train_x, train_y[:, :-1]), train_y[:, 1:], batch_size=64, epochs=100, validation_data=((valid_x, valid_y[:, :-1]), valid_y[:, 1:]))
 
