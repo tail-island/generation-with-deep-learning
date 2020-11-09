@@ -1,0 +1,417 @@
+question:   853-86 
+answer:     767   
+prediction: 767
+
+question:   2*4    
+answer:     8     
+prediction: 8
+
+question:   44*9   
+answer:     396   
+prediction: 396
+
+question:   6-5    
+answer:     1     
+prediction: 1
+
+question:   13*51  
+answer:     663   
+prediction: 623
+NG
+
+question:   37-782 
+answer:     -745  
+prediction: -745
+
+question:   51+6   
+answer:     57    
+prediction: 57
+
+question:   6*344  
+answer:     2064  
+prediction: 2064
+
+question:   20+639 
+answer:     659   
+prediction: 659
+
+question:   94+82  
+answer:     176   
+prediction: 176
+
+question:   87+8   
+answer:     95    
+prediction: 95
+
+question:   7+493  
+answer:     500   
+prediction: 500
+
+question:   4+3    
+answer:     7     
+prediction: 7
+
+question:   82+123 
+answer:     205   
+prediction: 205
+
+question:   719-85 
+answer:     634   
+prediction: 634
+
+question:   132*58 
+answer:     7656  
+prediction: 7556
+NG
+
+question:   5*3    
+answer:     15    
+prediction: 15
+
+question:   45*9   
+answer:     405   
+prediction: 405
+
+question:   0*93   
+answer:     0     
+prediction: 0
+
+question:   400-9  
+answer:     391   
+prediction: 391
+
+question:   670-7  
+answer:     663   
+prediction: 663
+
+question:   3*792  
+answer:     2376  
+prediction: 2376
+
+question:   110+875
+answer:     985   
+prediction: 985
+
+question:   596*6  
+answer:     3576  
+prediction: 3576
+
+question:   79+96  
+answer:     175   
+prediction: 175
+
+question:   3+36   
+answer:     39    
+prediction: 39
+
+question:   820-1  
+answer:     819   
+prediction: 819
+
+question:   67+99  
+answer:     166   
+prediction: 166
+
+question:   709-693
+answer:     16    
+prediction: 46
+NG
+
+question:   93*487 
+answer:     45291 
+prediction: 45741
+NG
+
+question:   3*61   
+answer:     183   
+prediction: 183
+
+question:   43-79  
+answer:     -36   
+prediction: -36
+
+question:   81*351 
+answer:     28431 
+prediction: 28931
+NG
+
+question:   749+63 
+answer:     812   
+prediction: 812
+
+question:   992*729
+answer:     723168
+prediction: 727778
+NG
+
+question:   415+0  
+answer:     415   
+prediction: 415
+
+question:   735*4  
+answer:     2940  
+prediction: 2940
+
+question:   45-6   
+answer:     39    
+prediction: 39
+
+question:   7*0    
+answer:     0     
+prediction: 0
+
+question:   16+594 
+answer:     610   
+prediction: 610
+
+question:   601+4  
+answer:     605   
+prediction: 605
+
+question:   9-85   
+answer:     -76   
+prediction: -76
+
+question:   5+597  
+answer:     602   
+prediction: 602
+
+question:   450+0  
+answer:     450   
+prediction: 450
+
+question:   20-963 
+answer:     -943  
+prediction: -943
+
+question:   551*20 
+answer:     11020 
+prediction: 11020
+
+question:   6*3    
+answer:     18    
+prediction: 18
+
+question:   487+0  
+answer:     487   
+prediction: 487
+
+question:   475+69 
+answer:     544   
+prediction: 544
+
+question:   0-5    
+answer:     -5    
+prediction: -5
+
+question:   8-934  
+answer:     -926  
+prediction: -926
+
+question:   696*291
+answer:     202536
+prediction: 106277
+NG
+
+question:   39+4   
+answer:     43    
+prediction: 43
+
+question:   18+52  
+answer:     70    
+prediction: 70
+
+question:   930+5  
+answer:     935   
+prediction: 935
+
+question:   70*135 
+answer:     9450  
+prediction: 9450
+
+question:   92*51  
+answer:     4692  
+prediction: 4792
+NG
+
+question:   6-57   
+answer:     -51   
+prediction: -51
+
+question:   61+9   
+answer:     70    
+prediction: 70
+
+question:   4+749  
+answer:     753   
+prediction: 753
+
+question:   89*2   
+answer:     178   
+prediction: 178
+
+question:   1+93   
+answer:     94    
+prediction: 94
+
+question:   765+7  
+answer:     772   
+prediction: 772
+
+question:   29-2   
+answer:     27    
+prediction: 27
+
+question:   265*53 
+answer:     14045 
+prediction: 13015
+NG
+
+question:   60-48  
+answer:     12    
+prediction: 12
+
+question:   796+8  
+answer:     804   
+prediction: 804
+
+question:   3*9    
+answer:     27    
+prediction: 27
+
+question:   719*66 
+answer:     47454 
+prediction: 47154
+NG
+
+question:   5+8    
+answer:     13    
+prediction: 13
+
+question:   7-56   
+answer:     -49   
+prediction: -49
+
+question:   3+9    
+answer:     12    
+prediction: 12
+
+question:   416-84 
+answer:     332   
+prediction: 332
+
+question:   52-527 
+answer:     -475  
+prediction: -475
+
+question:   0-71   
+answer:     -71   
+prediction: -71
+
+question:   454+256
+answer:     710   
+prediction: 710
+
+question:   54-4   
+answer:     50    
+prediction: 50
+
+question:   377*55 
+answer:     20735 
+prediction: 21625
+NG
+
+question:   33*76  
+answer:     2508  
+prediction: 2528
+NG
+
+question:   5-49   
+answer:     -44   
+prediction: -44
+
+question:   857+3  
+answer:     860   
+prediction: 860
+
+question:   0-99   
+answer:     -99   
+prediction: -99
+
+question:   96-713 
+answer:     -617  
+prediction: -617
+
+question:   139*593
+answer:     82427 
+prediction: 80087
+NG
+
+question:   8*26   
+answer:     208   
+prediction: 208
+
+question:   944-35 
+answer:     909   
+prediction: 909
+
+question:   857*7  
+answer:     5999  
+prediction: 5999
+
+question:   711*20 
+answer:     14220 
+prediction: 14220
+
+question:   60-7   
+answer:     53    
+prediction: 53
+
+question:   970*959
+answer:     930230
+prediction: 9208333
+NG
+
+question:   50*6   
+answer:     300   
+prediction: 300
+
+question:   0-8    
+answer:     -8    
+prediction: -8
+
+question:   87-5   
+answer:     82    
+prediction: 82
+
+question:   84+3   
+answer:     87    
+prediction: 87
+
+question:   214*232
+answer:     49648 
+prediction: 53348
+NG
+
+question:   78+310 
+answer:     388   
+prediction: 388
+
+question:   11*918 
+answer:     10098 
+prediction: 10798
+NG
+
+question:   2-320  
+answer:     -318  
+prediction: -318
+
+question:   95*1   
+answer:     95    
+prediction: 95
+
+question:   30+91  
+answer:     121   
+prediction: 121
+
+0.840
